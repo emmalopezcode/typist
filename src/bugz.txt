@@ -1,0 +1,4 @@
+always have text
+dont use the may refer to ones at all
+refine the popup?
+organize main.js

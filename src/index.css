@@ -3,4 +3,11 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  color: whitesmoke;
+  background-color: grey;
+}
+
+textarea{
+  color: inherit;
+  background-color: inherit;
 }

@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgb(50, 50, 66);
+}
+
+.active {
+    background-color: hotpink;
+}
+
+.inactive {
+    background-color: transparent;
+}
+
+.incorrect {
+    color: red;
+}
+
+.correct {
+    color: greenyellow;
+}
+
+.btn {
+    display: inline;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: rgb(69, 70, 80);
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: rgb(69, 70, 80);
+}
+
+#tb {
+    background-color: rgb(97, 99, 126);
+    margin-top: 40px;
+    padding: 18px;
+}
+
+#timer{
+    display: inline;
+    margin-left: 20px;
+}

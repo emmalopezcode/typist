@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Typist</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body id='bod'onkeypress="typekey(event, this)" >
+  <h1>Typist</h1>
+  <div style="margin-right: 20px;"class='btn' onclick="start()">start</div>
+
+  <div class='btn' onclick="fillText()">new text</div>
+  <p id='timer'></p>
+
+  <div id='tb' ></div>
+
+
+  <script src='./require.js'></script>
+
+  <script src='./main.js'></script>
+
+  <script>
+        
+    </script>
+</body>
+
 </html>

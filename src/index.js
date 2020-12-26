@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 const main = require('electron-reload');
 const path = require('path');
-
+//this is a test
 require('electron-reload')(__dirname, {
   // Note that the path to electron may vary according to the main file
   electron: require(`${__dirname}\\..\\node_modules\\electron`)

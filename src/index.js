@@ -21,7 +21,7 @@ const createWindow = async () => {
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
   
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 };
 
 app.on('ready', createWindow);
